@@ -43,3 +43,16 @@ Below are approximate guidelines
 
 * Street side points towards X+
 * Garden side points towards X-
+
+
+### Checklist
+- [ ] Create meshes
+- [ ] Define behaviors
+  - [ ] perimeter walls `furnity.behavior`: `perimeter wall`
+  - [ ] interior islands `furnity.behavior`: `island`
+  - [ ] interior floor `furnity.behavior`: `floor`
+  - [ ] interior ceiling `furnity.behavior`: `ceiling`
+
+- [ ] Create parent for each space (floor)
+  - [ ] Set custom data `furnity.space`: `floor`
+  - [ ] Set custom data `furnity.space.id`: [unique string]
