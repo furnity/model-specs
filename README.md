@@ -7,6 +7,7 @@ Specifications for 3D models compatible with the Furnity Studio Platform
 * Binary GLTF (.glb)
 * Embedded textures
 * Y is Up
+* 1 unit = 1 meter
 * File size typically: 1-5 MB including textures
 
 ### Origins
