@@ -8,7 +8,7 @@ This guide assumes you have a 2D drawing of a space.
 - [Import and Scale drawing](#import-and-scale-drawing)
 - [Create perimeter walls](#create-perimeter-walls)
 
-TOC created using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+TOC created using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)</small>
 
 
 ### Convert to PNG
@@ -63,3 +63,15 @@ The first thing you want to do is create a new Path.
 
 
 Select the Path and go into **Edit Mode** (`Tab`)
+
+
+
+
+### Export GLTF
+
+### Upload to Furnity Studio Admin
+
+Go to Worlds in admin and create a new world. Upload your GLTF and ensure all floors have been identified.
+
+
+### Share link with project
