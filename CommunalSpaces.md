@@ -2,6 +2,16 @@
 
 This guide assumes you have a 2D drawing of a space.
 
+- [Creating simple spaces from 2D drawings](#creating-simple-spaces-from-2d-drawings)
+    - [Convert to PNG](#convert-to-png)
+      - [PDF Source](#pdf-source)
+        - [Installing GraphicsMagick](#installing-graphicsmagick)
+    - [Import and Scale drawing](#import-and-scale-drawing)
+    - [Create perimeter walls](#create-perimeter-walls)
+
+TOC created using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+
 ### Convert to PNG
 
 The drawing needs to be imported into Blender as a texture. Prefer PNG. 
@@ -36,7 +46,7 @@ Find Scale on drawing and measure it. Ensure you are in top-down orthogonal view
 
 <img width="837" height="250" alt="image" src="https://github.com/user-attachments/assets/97d627aa-983b-4c30-90c4-bab5da35db17" />
 
-Select the drawing by dividing `1` with the measured number. In the case above `1/0.038744`.
+Scale the drawing by dividing `1` with the measured number. In the case above `1/0.038744`.
 
 
 <img width="836" height="685" alt="image" src="https://github.com/user-attachments/assets/b29e73c6-91cd-4405-99cb-8b22bc23df8f" />
