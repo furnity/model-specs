@@ -2,12 +2,11 @@
 
 This guide assumes you have a 2D drawing of a space.
 
-- [Creating simple spaces from 2D drawings](#creating-simple-spaces-from-2d-drawings)
-    - [Convert to PNG](#convert-to-png)
-      - [PDF Source](#pdf-source)
-        - [Installing GraphicsMagick](#installing-graphicsmagick)
-    - [Import and Scale drawing](#import-and-scale-drawing)
-    - [Create perimeter walls](#create-perimeter-walls)
+- [Convert to PNG](#convert-to-png)
+  - [PDF Source](#pdf-source)
+    - [Installing GraphicsMagick](#installing-graphicsmagick)
+- [Import and Scale drawing](#import-and-scale-drawing)
+- [Create perimeter walls](#create-perimeter-walls)
 
 TOC created using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
