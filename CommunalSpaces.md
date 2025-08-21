@@ -21,9 +21,13 @@ If you have a PDF it needs to be converted to PNG. You can do this with any soft
 
 ##### Installing GraphicsMagick
 
+In Ubuntu the command `apt` can install it.
+
 ```bash
 sudo apt install graphicsmagick
 ```
+
+Convert the PDF with the following command.
 
 ```bash
 gm convert -density 300 [inputfile].pdf [outputfile].png
