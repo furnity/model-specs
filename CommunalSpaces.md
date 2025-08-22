@@ -1,6 +1,6 @@
-# Creating simple spaces from 2D drawings
+# Creating simple spaces from 2D blueprints
 
-This guide assumes you have a 2D drawing of a space.
+This guide assumes you have a 2D blueprint of a space.
 
 - [Convert to PNG](#convert-to-png)
   - [PDF Source](#pdf-source)
@@ -71,6 +71,17 @@ Select the Path and go into **Edit Mode** with `Tab`.
 
 
 
+### Define Spaces
+
+There is one or more floors in each blueprint. Each floor is defined as a space in Blender to allow Furnity Studio to identify them.
+
+#### Creating a floor space
+
+* Choose an object to be the parent object for a space. Create a new empty object if needed.
+* Add string custom property with name `furnity.space` and set it to `floor`.
+* Add string custom property with name `furnity.space.id` and set it to something random ([UUID](https://www.uuidgenerator.net/)).
+* Set everything that belongs to this space as child to the parent object.
+
 
 ### Export GLTF
 
@@ -86,6 +97,6 @@ Go to Worlds in admin and create a new world. Upload your GLTF and ensure all fl
 * Name it something easily identifiable like project name followed by real world address; for example *Göteborgs stad - Prästvägen 18*.
 * Upload the exported GLTF.
 * Ensure spaces have been identified and save.
-* Create a new Layout from the world and test **in Furnity Studio**.
+* Create a new Layout from the world and test in **Furnity Studio**.
 
 ### Share link with project
