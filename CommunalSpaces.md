@@ -62,11 +62,12 @@ Ensure the scale is correct by comparing to the grid.
 
 <img width="702" height="419" alt="image" src="https://github.com/user-attachments/assets/1940e085-64ca-46e8-b447-08f61fdf6d26" />
 
-The first thing you want to do is create a new Path.
+Create a new Path for the perimeter wall. Name it something identifiable, like "Floor 1 Perimeter Wall Path".
 
+Select the Path and go into **Edit Mode** with `Tab`.
 
+<img width="1562" height="892" alt="image" src="https://github.com/user-attachments/assets/b82134a3-9417-41f1-9a95-71aeafcd080a" />
 
-Select the Path and go into **Edit Mode** (`Tab`)
 
 
 
@@ -77,5 +78,14 @@ Select the Path and go into **Edit Mode** (`Tab`)
 
 Go to Worlds in admin and create a new world. Upload your GLTF and ensure all floors have been identified.
 
+
+### Upload to Admin
+
+* Go to [Furnity Studio Admin](https://admin.furnity.se/)
+* Go to **Worlds** and create a new world.
+* Name it something easily identifiable like project name followed by real world address; for example *Göteborgs stad - Prästvägen 18*.
+* Upload the exported GLTF.
+* Ensure spaces have been identified and save.
+* Create a new Layout from the world and test **in Furnity Studio**.
 
 ### Share link with project
