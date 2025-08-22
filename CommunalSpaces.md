@@ -57,7 +57,6 @@ Scale the drawing by dividing `1` with the measured number. In the case above `1
 Ensure the scale is correct by comparing to the grid.
 
 
-
 ### Create perimeter walls 
 
 <img width="702" height="419" alt="image" src="https://github.com/user-attachments/assets/1940e085-64ca-46e8-b447-08f61fdf6d26" />
@@ -67,6 +66,20 @@ Create a new Path for the perimeter wall. Name it something identifiable, like "
 Select the Path and go into **Edit Mode** with `Tab`.
 
 <img width="1562" height="892" alt="image" src="https://github.com/user-attachments/assets/b82134a3-9417-41f1-9a95-71aeafcd080a" />
+
+
+### Create inner walls
+
+...
+
+### Create windows and doorways
+
+...
+
+### Block off occupied spaces
+
+
+### Add details
 
 
 
@@ -79,8 +92,11 @@ There is one or more floors in each blueprint. Each floor is defined as a space 
 
 * Choose an object to be the parent object for a space. Create a new empty object if needed.
 * Add string custom property with name `furnity.space` and set it to `floor`.
-* Add string custom property with name `furnity.space.id` and set it to something random ([UUID](https://www.uuidgenerator.net/)).
-* Set everything that belongs to this space as child to the parent object.
+* Add another string custom property with name `furnity.space.id` and set it to something random ([UUID](https://www.uuidgenerator.net/)).
+* Set everything that belongs to this space as [child to the parent object](https://www.google.com/search?q=blender+set+object+to+child+of+parent).
+
+<img width="329" height="168" alt="image" src="https://github.com/user-attachments/assets/6b4f3c81-81f2-4bac-9b13-14a045ce5559" />
+
 
 
 ### Export GLTF
