@@ -81,6 +81,7 @@ Select the Path and go into **Edit Mode** with `Tab`.
 
 ### Add details
 
+* Add kitchens where kitchens are designated.
 
 
 
