@@ -2,18 +2,10 @@
 
 This guide assumes you have a 2D blueprint of a space.
 
-- [Convert to PNG](#convert-to-png)
-  - [PDF Source](#pdf-source)
-    - [Installing GraphicsMagick](#installing-graphicsmagick)
-- [Import and Scale drawing](#import-and-scale-drawing)
-- [Create perimeter walls](#create-perimeter-walls)
-
-TOC created using [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)</small>
-
 
 ### Convert to PNG
 
-The drawing needs to be imported into Blender as a texture. Prefer PNG. 
+The blueprint needs to be imported into Blender as a texture. Prefer PNG. 
 
 #### PDF Source
 
@@ -33,7 +25,23 @@ Convert the PDF with the following command.
 gm convert -density 300 [inputfile].pdf [outputfile].png
 ```
 
-### Import and Scale drawing
+### Set tone curve
+
+The blueprint background should not be white, but grey, close to `#606060`. You can use most image editing software to accomplish this in several ways. The simplest way is using Tone Curve and invert the curve. Example from the free softare [FireAlpaca](https://firealpaca.com/) below.
+
+<img width="1124" height="658" alt="image" src="https://github.com/user-attachments/assets/1f380d74-0314-46bc-a0ee-b8489ee965c7" />
+
+Before
+
+<img width="1127" height="662" alt="image" src="https://github.com/user-attachments/assets/7d3683d8-28a9-43e5-b5a2-fd9b6a2ea021" />
+
+After
+
+
+
+
+
+### Import and Scale blueprint
 
 Start Blender and create a new file.
 
@@ -49,7 +57,7 @@ Find Scale on drawing and measure it. Ensure you are in top-down orthogonal view
 
 <img width="837" height="250" alt="image" src="https://github.com/user-attachments/assets/97d627aa-983b-4c30-90c4-bab5da35db17" />
 
-Scale the drawing by dividing `1` with the measured number. In the case above `1/0.038744`.
+Scale the blueprint by dividing `1` with the measured number. In the case above `1/0.038744`.
 
 
 <img width="836" height="685" alt="image" src="https://github.com/user-attachments/assets/b29e73c6-91cd-4405-99cb-8b22bc23df8f" />
@@ -78,6 +86,7 @@ Select the Path and go into **Edit Mode** with `Tab`.
 
 ### Block off occupied spaces
 
+For each area 
 
 ### Add details
 
