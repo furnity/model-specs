@@ -86,7 +86,12 @@ Select the Path and go into **Edit Mode** with `Tab`.
 
 ### Block off occupied spaces
 
-For each area 
+Everything that should be restricted from having items placed on it, should be blocked off by a cuboid mesh or what is most suitable.
+
+<img width="787" height="747" alt="image" src="https://github.com/user-attachments/assets/e3979a65-7c35-4b5f-bb5d-0c3b0690d16d" />
+
+Material: Color `#7A7A7A` - Alpha `0.5`
+
 
 ### Add details
 
