@@ -98,6 +98,14 @@ Material: Color `#7A7A7A` - Alpha `0.5`
 * Add kitchens where kitchens are designated.
 
 
+### Add Areas
+
+An area is a mesh that represents a volume or surface in an interior. It is used for Furnity Studio to understand where an item is. This is in order to create an index of items per volume or surface, like a room inside a house. 
+
+An area can be any mesh with a `furntiy.area` as custom property. The custom property value will be used as the name of the area. For areas we use a material with color `#E72930` and `0.5` alpha. Areas well not be visible in Furnity Studio.
+
+<img width="786" height="516" alt="image" src="https://github.com/user-attachments/assets/34d574d1-0427-46b3-b0f3-21a9211ab9eb" />
+
 
 ### Define Spaces
 
