@@ -9,7 +9,7 @@ The blueprint needs to be imported into Blender as a texture. Prefer PNG.
 
 #### PDF Source
 
-If you have a PDF it needs to be converted to PNG. You can do this with any software you like. For WSL/Ubuntu [GraphicsMagick](http://www.graphicsmagick.org/) is recommended.
+If you have a PDF it needs to be converted to PNG. You can do this with any software you like. For WSL/Ubuntu [GraphicsMagick](http://www.graphicsmagick.org/) is recommended. For Mac/Windows [Affinity](https://www.affinity.studio/download) is recommended. 
 
 ##### Installing GraphicsMagick
 
@@ -32,15 +32,10 @@ gm convert -density 600 -rotate 0 "Ritning Furnity Torpagatan 32.pdf""[0]" "Torp
 
 ### Set tone curve
 
-The blueprint background should not be white, but grey, close to `#606060`. You can use most image editing software to accomplish this in several ways. The simplest way is using Tone Curve and invert the curve. Example from the free softare [FireAlpaca](https://firealpaca.com/) below.
+The blueprint background should not be white, but grey, close to `#606060`. You can use most image editing software to accomplish this in several ways. The simplest way is using Curves adjustments and invert the curve. Below this is shown in Affinity.
 
-<img width="1124" height="658" alt="image" src="https://github.com/user-attachments/assets/1f380d74-0314-46bc-a0ee-b8489ee965c7" />
+<img width="2529" height="1550" alt="image" src="https://github.com/user-attachments/assets/0df969e4-de5b-445b-bfe7-53738b70e1e6" />
 
-Before
-
-<img width="1127" height="662" alt="image" src="https://github.com/user-attachments/assets/7d3683d8-28a9-43e5-b5a2-fd9b6a2ea021" />
-
-After
 
 
 
