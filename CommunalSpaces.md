@@ -25,9 +25,9 @@ Convert the PDF with the following command.
 gm convert -density 300 -rotate 0 [inputfile].pdf [outputfile].png
 ```
 
-Example below. Notice quotes `"` and page notation `[1]`. If the PDF have multiple pages you can specify them inside the brackets starting from 0. So if you want page 3 in a PDF the filename should be specified as `"My blueprint.pdf""[2]"`. You can constrol the resolution of the output file with the `-density 600` switch. Since most PDFs are based on paper sizes that needs to be converted to pixel resolution for the PNG file. On case the PDF needs to be rotated you can control that with the `-rotate 0` command. Replace `0` with the degrees you want to rotate, usually either `0`, `90`, `180`, or `270`.
+Example below. Notice quotes `"` and page notation `[0]`. If the PDF have multiple pages you can specify them inside the brackets starting from 0. So if you want page 3 in a PDF the filename should be specified as `"My blueprint.pdf""[2]"`. You can constrol the resolution of the output file with the `-density 600` switch. Since most PDFs are based on paper sizes that needs to be converted to pixel resolution for the PNG file. On case the PDF needs to be rotated you can control that with the `-rotate 0` command. Replace `0` with the degrees you want to rotate, usually either `0`, `90`, `180`, or `270`.
 ```
-gm convert -density 600 -rotate 0 "Ritning Furnity Torpagatan 32.pdf""[1]" "Torpagatan 32.png"
+gm convert -density 600 -rotate 0 "Ritning Furnity Torpagatan 32.pdf""[0]" "Torpagatan 32.png"
 ```
 
 ### Set tone curve
