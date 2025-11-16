@@ -22,7 +22,12 @@ sudo apt install graphicsmagick
 Convert the PDF with the following command.
 
 ```bash
-gm convert -density 300 [inputfile].pdf [outputfile].png
+gm convert -density 300 -rotate 0 [inputfile].pdf [outputfile].png
+```
+
+Example below. Notice quotes `"` and page notation `[1]`. If the PDF have multiple pages you can specify them inside the brackets starting from 0. So if you want page 3 in a PDF the filename should be specified as `"My blueprint.pdf""[2]"`.
+```
+gm convert -density 600 -rotate 0 "Ritning Furnity Torpagatan 32.pdf""[1]" "Torpagatan 32.png"
 ```
 
 ### Set tone curve
