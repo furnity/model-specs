@@ -140,6 +140,16 @@ Repeat the steps in the previous step.
 To better see which walls you have completed - set a wall profile early and assign it a vibrant material.
 
 
+<img width="2038" height="1156" alt="image" src="https://github.com/user-attachments/assets/be30eaf2-5fe6-4e9e-920b-7660ab67c4c6" />
+
+A few minutes later - all walls have been set out!
+
+
+<img width="2037" height="1156" alt="image" src="https://github.com/user-attachments/assets/8f33c022-969f-4bec-846f-4e3227bf2091" />
+
+If the walls looks smooth ensure Shading is set to Flat in `Object Mode`.
+
+
 
 
 
