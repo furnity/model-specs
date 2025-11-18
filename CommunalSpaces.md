@@ -157,6 +157,29 @@ If the walls looks smooth ensure Shading is set to Flat in `Object Mode`.
 
 ### Create windows and doorways
 
+Windows and doorways are created by placing cube meshes where we want holes for windows and doors. These meshes will later be used to cut out holes in walls using the boolean modifier.
+
+<img width="635" height="909" alt="image" src="https://github.com/user-attachments/assets/08bd432a-4b97-4122-b6e0-7b9191d999c8" />
+
+Create a new collection by right clicking in the [Outliner](https://docs.blender.org/manual/en/latest/editors/outliner/introduction.html). Name it `Gaps` of something descriptive.
+
+
+<img width="1756" height="1173" alt="image" src="https://github.com/user-attachments/assets/a80a310f-b164-45bc-9e58-46f2474fbadc" />
+
+Create a cube to represent a window. Name it something descriptive like `Window.000` and move it into the new collection by dragging it into the collection in the Outliner. Set the height and placement from the ground if it is known. If it is unknown use 1.2m height and 1.4 meter above ground with a centered origin. A centered origin is default for newly created cubes.
+
+
+<img width="1756" height="1174" alt="image" src="https://github.com/user-attachments/assets/6b198ea9-a867-447b-b9a8-e5c98b59cf3e" />
+
+Set width according to blueprint. The depth must be thicker than the wall. A common practice is to use the same depth as width.
+
+
+<img width="1756" height="1174" alt="image" src="https://github.com/user-attachments/assets/1644583d-e25d-42b7-a3b4-eb58a6380b04" />
+
+Ensure you are in orthographic camera mode. Then duplicate the window mesh by pressing `Alt + D` and move it to the next window on the blueprint. Repeat for every window in the blueprint. Adjust width if necessary. You can select multiple window meshes at once and duplicate and move.
+
+
+
 ...
 
 ### Block off occupied spaces
