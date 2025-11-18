@@ -83,14 +83,20 @@ Start by creating the path for the perimeter wall (outside walls). We separate o
 
 Create a new Path for the perimeter wall. Name it something identifiable, like "Floor 1 Perimeter Wall Path".
 
-Select the Path and go into **Edit Mode** with `Tab`. You can now start adding points using `Ctrl + Right Mouse Button`. 
 
 <img width="1438" height="805" alt="image" src="https://github.com/user-attachments/assets/fccabafb-a134-4074-9fac-d5a0b2ab7a66" />
 
-Per default the path will be a bezier path which means it will curve. Correct this by making sure you are in **Edit Mode**, having all points selected (`A`), and setting the Spine Type to Poly with the Context Menu.
+Select the Path and go into **Edit Mode** with `Tab`. You can now start adding points using `Ctrl + Right Mouse Button`. 
+
 
 <img width="806" height="673" alt="image" src="https://github.com/user-attachments/assets/c76cc616-a4bd-4813-93e4-b08efcf70887" />
 
+Per default the path will be a bezier path which means it will curve. Correct this by making sure you are in **Edit Mode**, having all points selected (`A`), and setting the Spine Type to Poly with the Context Menu.
+
+
+<img width="1722" height="1073" alt="image" src="https://github.com/user-attachments/assets/86edfa6b-5fcf-43ca-b801-3c91c955490b" />
+
+When the building perimeter is surrounded, you can configure the path to close it automatically by checking the `Cyclic U` option.
 
 
 ### Create inner walls
