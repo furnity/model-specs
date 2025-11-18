@@ -125,6 +125,24 @@ Be careful to keep all points on the Z plane so that all points are on Z = 0.
 
 ### Create inner walls
 
+Creating the inner walls is done in the same manner as perimeter walls. The only difference in that you don't want to mark this path as `Cyclic U` as you want many standalone walls instead of one that circles the building. 
+
+Repeat the steps in the previous step.
+
+* Add new Path
+* Name it something recognizable (`Floor 1 Inner Wall Path`)
+* Set Spline type to `Poly`
+* Set out new points using `Ctrl + Right Mouse`.
+* Make a new segment by unselecting using `Left Mouse` and then start new with `Ctrl + Right Mouse` again.
+
+<img width="1876" height="1246" alt="image" src="https://github.com/user-attachments/assets/f25da9f8-5368-428b-8c5c-351f27acbfa2" />
+
+To better see which walls you have completed - set a wall profile early and assign it a vibrant material.
+
+
+
+
+
 ...
 
 ### Create windows and doorways
