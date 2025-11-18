@@ -159,6 +159,8 @@ If the walls looks smooth ensure Shading is set to Flat in `Object Mode`.
 
 Windows and doorways are created by placing cube meshes where we want holes for windows and doors. These meshes will later be used to cut out holes in walls using the boolean modifier.
 
+#### Windows
+
 <img width="635" height="909" alt="image" src="https://github.com/user-attachments/assets/08bd432a-4b97-4122-b6e0-7b9191d999c8" />
 
 Create a new collection by right clicking in the [Outliner](https://docs.blender.org/manual/en/latest/editors/outliner/introduction.html). Name it `Gaps` of something descriptive.
@@ -178,6 +180,21 @@ Set width according to blueprint. The depth must be thicker than the wall. A com
 
 Ensure you are in orthographic camera mode. Then duplicate the window mesh by pressing `Alt + D` and move it to the next window on the blueprint. Repeat for every window in the blueprint. Adjust width if necessary. You can select multiple window meshes at once and duplicate and move.
 
+
+#### Doorways
+
+Doorways are created in the same manner but uses a height of approximately 2.1 meters and stretches all the way from Z=0 (the ground). 
+
+Follow the same steps:
+
+* Create Mesh and name it something descriptive like `Doorway.001`.
+* Set height, width, depth and position from ground.
+* Duplicate to position a mesh over each door in blueprint.
+
+
+<img width="1756" height="1174" alt="image" src="https://github.com/user-attachments/assets/804186e2-8f31-429c-844d-50374a61e1b4" />
+
+When done it should look similar to the screenshot.
 
 
 ...
