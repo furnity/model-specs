@@ -67,7 +67,7 @@ Find Scale on drawing and measure it. Ensure you are in top-down orthogonal view
 
 <img width="837" height="250" alt="image" src="https://github.com/user-attachments/assets/97d627aa-983b-4c30-90c4-bab5da35db17" />
 
-Scale the blueprint by dividing `1` with the measured number. In the case above `1/0.038744`.
+Scale the blueprint by dividing `1` with the measured number. In the case above `1/0.038744`. The scale can be changed at any time all the way to export, so don't stress too much about getting it perfect.
 
 
 <img width="836" height="685" alt="image" src="https://github.com/user-attachments/assets/b29e73c6-91cd-4405-99cb-8b22bc23df8f" />
