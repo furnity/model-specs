@@ -50,6 +50,16 @@ Start Blender and create a new file.
 Import image as Mesh Plane
 
 
+<img width="1722" height="1073" alt="image" src="https://github.com/user-attachments/assets/296b9899-a283-4190-a0d7-e3c46050660a" />
+
+Change Viewport Shading to Material Preview to see the texture.
+
+
+<img width="1774" height="1073" alt="image" src="https://github.com/user-attachments/assets/0001263f-c346-4b2d-ab3a-b0209ea36959" />
+
+Rotate the Mesh Plane so that the texture faces upwards. In this case the X rotation was changed from `90` to `0`.
+
+
 <img width="773" height="553" alt="image" src="https://github.com/user-attachments/assets/26819755-c977-4f62-8ca4-70acc1728286" />
 
 Find Scale on drawing and measure it. Ensure you are in top-down orthogonal view otherwise the measurement will be inaccurate.
