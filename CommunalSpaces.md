@@ -178,7 +178,7 @@ Set width according to blueprint. The depth must be thicker than the wall. A com
 
 <img width="1756" height="1174" alt="image" src="https://github.com/user-attachments/assets/1644583d-e25d-42b7-a3b4-eb58a6380b04" />
 
-Ensure you are in orthographic camera mode. Then duplicate the window mesh by pressing `Alt + D` and move it to the next window on the blueprint. Repeat for every window in the blueprint. Adjust width if necessary. You can select multiple window meshes at once and duplicate and move.
+Ensure you are in orthographic camera mode. Then duplicate the window mesh **as reference** by pressing `Alt + D` and move it to the next window on the blueprint. Repeat for every window in the blueprint. Adjust width if necessary. You can select multiple window meshes at once and duplicate and move.
 
 
 #### Doorways
@@ -195,6 +195,38 @@ Follow the same steps:
 <img width="1756" height="1174" alt="image" src="https://github.com/user-attachments/assets/804186e2-8f31-429c-844d-50374a61e1b4" />
 
 When done it should look similar to the screenshot.
+
+
+#### Cutting out
+
+In order to use a boolean modifier the walls must be converted from path into mesh. 
+
+
+<img width="1992" height="1173" alt="image" src="https://github.com/user-attachments/assets/af5da379-cbb9-41a9-99f7-ef0c678c2f01" />
+
+Since this is a destructive operation, it is a good idea to make a copy of the wall before with `Shift + D`. If it was named something with path, the copy can be named something with mesh; for example `Floor 1 Perimeter Wall Path` > `Floor 1 Perimeter Wall Mesh`. Hide the path after the copy has been made.
+
+
+<img width="1992" height="1173" alt="image" src="https://github.com/user-attachments/assets/46240da9-2890-486e-85fe-6cc3d054a014" />
+
+Now convert the object named mesh into a mesh. This can be done by right clicking the wall curves and selecting `Convert To > Mesh`. The green icon that can be seen under the object in the outliner should change from a path icon (curve) to a mesh icon (triangle).
+
+
+<img width="1992" height="1173" alt="image" src="https://github.com/user-attachments/assets/7afe3184-1e58-475e-bae7-ef1a77b9c30e" />
+
+Add the boolean modifier to the mesh.
+
+
+<img width="1992" height="1173" alt="image" src="https://github.com/user-attachments/assets/5d1b15eb-4862-4d9c-b155-9a2e10d122b5" />
+
+Set operand type to `Collection` and select the collection with windows and doorways in.
+
+
+<img width="1992" height="1173" alt="image" src="https://github.com/user-attachments/assets/8ff2dec3-faa7-4e6b-9d5d-94c1437a89e2" />
+
+Hide the Gaps collection by clicking the eye in the outliner to show the door and window holes.
+
+
 
 
 ...
