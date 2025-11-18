@@ -99,6 +99,30 @@ Per default the path will be a bezier path which means it will curve. Correct th
 When the building perimeter is surrounded, you can configure the path to close it automatically by checking the `Cyclic U` option.
 
 
+### Create perimeter wall profile
+
+Our perimeter wall is only a line now. In this step we are going to make the wall solid by creating another path to act as the perimeter wall profile that will follow the outer wall.
+
+<img width="1722" height="1074" alt="image" src="https://github.com/user-attachments/assets/09f5122e-f78f-4e7b-8af5-e5ab08870030" />
+
+Create another new Path, set Spline type to Poly, and name it similar to "Perimeter Wall Profile". Then make it into a shape that is approximately 2.5 meters tall, and 0.2 meters wide. Also set this to `Cyclic U`.
+
+
+<img width="1795" height="1073" alt="image" src="https://github.com/user-attachments/assets/32edcd2f-4c0f-441f-bc1c-a8930779089f" />
+
+Select the Perimeter wall path and set the Perimeter wall profile as Bevel Object. You should now see the perimeter wall as a solid.
+
+
+<img width="1722" height="1074" alt="image" src="https://github.com/user-attachments/assets/1c511791-e4aa-4f40-ac81-8c8acc07471e" />
+
+Depending how the scene is set up, the wall may be lying down. This is because the Bevel object is applied using the profile path origin point as "attachment point" for the perimeter path. This can be fixed by going into Edit mode and move the points. In this case the points were rotated and moved so that the base of the profile was on the center of the origin point.
+
+
+<img width="1722" height="1073" alt="image" src="https://github.com/user-attachments/assets/d23f7c41-bd52-41fa-9b56-3a16f10294e3" />
+
+Be careful to keep all points on the Z plane so that all points are on Z = 0.
+
+
 ### Create inner walls
 
 ...
