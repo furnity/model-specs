@@ -197,7 +197,7 @@ Follow the same steps:
 When done it should look similar to the screenshot.
 
 
-#### Cutting out
+#### Cutting out holes
 
 In order to use a boolean modifier the walls must be converted from path into mesh. 
 
@@ -227,6 +227,10 @@ Set operand type to `Collection` and select the collection with windows and door
 Hide the Gaps collection by clicking the eye in the outliner to show the door and window holes.
 
 
+<img width="1992" height="1174" alt="image" src="https://github.com/user-attachments/assets/19a6a1b2-6478-4d3f-b431-f9e9adf90148" />
+
+Repeat the exact same steps for inner walls.
+
 
 
 ...
@@ -249,9 +253,18 @@ Material: Color `#7A7A7A` - Alpha `0.5`
 
 An area is a mesh that represents a volume or surface in an interior. It is used for Furnity Studio to understand where an item is. This is in order to create an index of items per volume or surface, like a room inside a house. 
 
-An area can be any mesh with a `furntiy.area` as custom property. The custom property value will be used as the name of the area. For areas we use a material with color `#E72930` and `0.5` alpha. Areas well not be visible in Furnity Studio.
+An area can be any mesh with a `furntiy.area` as custom property. The custom property value will be used as the name of the area. For areas we use a material with color `#E72930` and `0.5` alpha. Areas will not be visible in Furnity Studio.
+
 
 <img width="786" height="516" alt="image" src="https://github.com/user-attachments/assets/34d574d1-0427-46b3-b0f3-21a9211ab9eb" />
+
+It is recommended to use planes for areas. Start by creating a collection called `Areas`, then creaet a plane and name it `Area.001`. Move it to the first room and assign it a custom property of type string on the object called `furnity.area`. Write the room name from the blueprint as the value. Repeat for every room by duplicating (`Alt + D`), move and scale it, and update the name for the new area.
+
+
+<img width="2020" height="1173" alt="image" src="https://github.com/user-attachments/assets/cad055ea-7806-4c8e-954e-d6b25241197d" />
+
+It is recommended to put all areas in their own collection and give the appropriate names.
+
 
 
 ### Define Spaces
