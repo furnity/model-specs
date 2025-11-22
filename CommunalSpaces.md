@@ -14,8 +14,14 @@ This guide assumes you have a 2D blueprint of a space.
 
 ### Measurements
 
+#### Walls
 * Perimeter wall height: `2.8`
 * Inner wall height: `2.5`
+
+#### Block outs
+* Tall height: `2.0`
+* Bench height: `0.8`
+* Hangers: `0.5`, raised `1.2` from floor
 
 
 ## Instructions
