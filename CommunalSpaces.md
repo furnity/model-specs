@@ -325,7 +325,7 @@ When exporting it is a good idea to prepare the scene so that the export process
 
 #### Filter object from export
 
-<img width="2385" height="1411" alt="image" src="https://github.com/user-attachments/assets/0c6ba490-978b-439e-9899-04c92da0e10f" />
+<img width="2432" height="1411" alt="image" src="https://github.com/user-attachments/assets/52e5b4f0-d4d8-476d-a567-1da77345b7cb" />
 
 You can mark objects as `Disable in Renders` that should not be in the exported GLTF file. This toggle is found in the outliner. When exporting you can tell Blender to only export renderable objects. Keeping this up to date is a good way to convey to other people using the Blender file which things are necessary in the scene for the output. For example, paths should never be in the export, so can be marked as `Disable in Renders`.
 
