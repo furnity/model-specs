@@ -3,6 +3,22 @@
 This guide assumes you have a 2D blueprint of a space.
 
 
+## Quick Reference
+
+### Colors
+
+* Perimeter wall: `#D4CFC0`
+* Inner wall: `#F4EFEC`
+* Block offs: `#7A7A7A`
+
+### Measurements
+
+* Perimeter wall height: `2.8`
+* Inner wall height: `2.5`
+
+
+## Instructions
+
 ### Convert to PNG
 
 The blueprint needs to be imported into Blender as a texture. Prefer PNG. 
