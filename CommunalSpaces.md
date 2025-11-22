@@ -321,6 +321,18 @@ There is one or more floors in each blueprint. Each floor is defined as a space 
 
 ### Export GLTF
 
+When exporting it is a good idea to prepare the scene so that the export process can help in case we need to update the file.
+
+#### Filter object from export
+
+<img width="2385" height="1411" alt="image" src="https://github.com/user-attachments/assets/0c6ba490-978b-439e-9899-04c92da0e10f" />
+
+You can mark objects as `Disable in Renders` that should not be in the exported GLTF file. This toggle is found in the outliner. When exporting you can tell Blender to only export renderable objects. Keeping this up to date is a good way to convey to other people using the Blender file which things are necessary in the scene for the output. For example, paths should never be in the export, so can be marked as `Disable in Renders`.
+
+Another example is Areas. We don't want to see marked up areas, as they are not visible in the final output. So we can mark them as hidden, but not disabled as we want the in the GLTF file.
+
+
+
 ### Upload to Furnity Studio Admin
 
 Go to Worlds in admin and create a new world. Upload your GLTF and ensure all floors have been identified.
