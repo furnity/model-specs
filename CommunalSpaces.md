@@ -10,6 +10,7 @@ This guide assumes you have a 2D blueprint of a space.
 * Perimeter wall: `#D4CFC0`
 * Inner wall: `#F4EFEC`
 * Block offs: `#7A7A7A`
+* Blueprint base: `#606060`
 
 ### Measurements
 
@@ -274,7 +275,7 @@ An area can be any mesh with a `furntiy.area` as custom property. The custom pro
 
 <img width="786" height="516" alt="image" src="https://github.com/user-attachments/assets/34d574d1-0427-46b3-b0f3-21a9211ab9eb" />
 
-It is recommended to use planes for areas. Start by creating a collection called `Areas`, then creaet a plane and name it `Area.001`. Move it to the first room and assign it a custom property of type string on the object called `furnity.area`. Write the room name from the blueprint as the value. Repeat for every room by duplicating (`Alt + D`), move and scale it, and update the name for the new area.
+It is recommended to use planes for areas. Start by creating a collection called `Areas`, then create a plane and name it `Area.001`. Move it to the first room and assign it a custom property of type string on the object called `furnity.area`. Write the room name from the blueprint as the value. Repeat for every room by duplicating (`Alt + D`), move and scale it, and update the name for the new area.
 
 
 <img width="2020" height="1173" alt="image" src="https://github.com/user-attachments/assets/cad055ea-7806-4c8e-954e-d6b25241197d" />
