@@ -269,7 +269,21 @@ Material: Color `#7A7A7A` - Alpha `0.5`
 
 ### Add details
 
-* Add kitchens where kitchens are designated.
+#### Pentry
+
+<img width="2077" height="1313" alt="image" src="https://github.com/user-attachments/assets/30d03df1-66ad-4b26-9f7d-f3ef445f8502" />
+
+We have a default pentry file you can find here [Pentry.blend](https://furnity.sharepoint.com/:f:/s/Furnity/IgDzeijqJPVzT6mUWvHdX2XaAWwg13f57vyf55Wq3iqoJMU?e=OcDiqP). 
+
+Since the details in the Pentry uses textures and more detailed data, you want to be sure to follow the rules below to make it easy and save space.
+
+* After copying over mesh data, merge the whole pentry to a single mesh using `Ctrl + J`.
+* Always duplicate using `Alt + D` to make references. 
+
+
+<img width="2190" height="1330" alt="image" src="https://github.com/user-attachments/assets/c14b20e9-6046-4503-86a7-808ed5878439" />
+
+Place Pentry over every kitchen blockage.
 
 
 ### Add Areas
