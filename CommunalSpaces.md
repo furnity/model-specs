@@ -331,11 +331,9 @@ You can mark objects as `Disable in Renders` that should not be in the exported 
 
 Another example is Areas. We don't want to see marked up areas, as they are not visible in the final output. So we can mark them as hidden, but not disabled as we want the in the GLTF file.
 
+#### Choose naming and Export folder
 
-
-### Upload to Furnity Studio Admin
-
-Go to Worlds in admin and create a new world. Upload your GLTF and ensure all floors have been identified.
+Make a new folder in the same folder as the Blender file, and name it `Exports`. Use same filename as Blender file but it should use the file extension `.glb` and have a versioning suffix like `v1`, `v2`. Everytime a significant change is made en re-exported, increment the version number. This can be valuable if comparisons between different exports needs to be made for troubleshooting.
 
 
 ### Upload to Admin
